@@ -1,5 +1,5 @@
 header {
-    background-color: #444;
+    background-color: rgb(106, 67, 179);
     height: 100px;
     margin-bottom: 30px;
 }
@@ -50,13 +50,15 @@ p {
     height: 400px;
     width: 450px;
     overflow: scroll;
-    line-break: loose;
+    line-height: 115%;
+    margin-top: 12px;
 }
 
 button {
     transition: 350ms;
     shape-rendering: round;
-    margin-top: 30px
+    margin-top: 10px;
+    color: rgb(32, 14, 70);
 }
 
 button:hover{
@@ -64,7 +66,7 @@ button:hover{
 }
 
 footer {
-    background-color: #444;
+    background-color: rgb(46, 2, 241);
     height: 150px;
     margin-top: 30px;
 }
@@ -72,3 +74,10 @@ footer {
 h2 {
     font-weight: bold ;
 }
+
+body {
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+/* courtesy of https://cssgradient.io/gradient-backgrounds/*
